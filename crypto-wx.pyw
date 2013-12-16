@@ -51,7 +51,7 @@ method_supported = {
 
 class Frame(wx.Frame):
     def __init__(
-            self, parent=None, id=wx.ID_ANY, title='Crypto', pos=wx.DefaultPosition,
+            self, parent=None, id=wx.ID_ANY, title='Crypto-wx', pos=wx.DefaultPosition,
             size=wx.DefaultSize, style=wx.DEFAULT_FRAME_STYLE):
         wx.Frame.__init__(self, parent, id, title, pos, size, style)
         self.SetClientSize(wx.Size(632, 480))
